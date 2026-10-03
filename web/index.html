@@ -1,1 +1,36 @@
-<!doctype html><html lang="en" ><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#f3f4f4"/><meta name="description" content="An interactive atlas of the rice plant. Explore named organs, reveal botanical systems, and inspect roots, culms, leaves, panicles, and grains in 3D."/><title>Rice Plant Atlas</title><link rel="icon" href="/favicon.svg"/></head><body><div id="root"></div><script type="module" src="/main.tsx"></script></body></html>
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+    <meta name="theme-color" content="#f3f4f4"/>
+    <meta name="description" content="An interactive atlas of the rice plant. Explore named organs, reveal botanical systems, and inspect roots, culms, leaves, panicles, and grains in 3D."/>
+    <title>Rice Plant Atlas</title>
+    <link rel="icon" href="/favicon.svg"/>
+    
+    <!-- CoSE Theme Styles -->
+    <link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-chrome.css" />
+    <link rel="stylesheet" href="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-map.css" />
+  </head>
+  <body data-site-id="rice-atlas" data-brand-logo="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/cose-logo.png">
+    
+    <!-- CoSE Theme Hero / Header -->
+    <header class="cose-hero">
+      <p class="cose-eyebrow">AstroBotany / Deep Space Ag · Rice Plant</p>
+      <h1>Rice Plant Atlas</h1>
+      <p class="cose-lede">An interactive atlas of the rice plant. Explore named organs, reveal botanical systems, and inspect roots, culms, leaves, panicles, and grains in 3D.</p>
+      <div class="cose-btns">
+        <a class="cose-btn primary" href="https://github.com/dr-richard-barker/rice-atlas">Code &amp; data (GitHub)</a>
+      </div>
+    </header>
+
+    <div id="root"></div>
+
+    <!-- Application Script -->
+    <script type="module" src="/main.tsx"></script>
+
+    <!-- CoSE Theme Scripts -->
+    <script src="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/sites.js"></script>
+    <script src="https://dr-richard-barker.github.io/Plant_response_to_radiation/cose/theme.js"></script>
+  </body>
+</html>
